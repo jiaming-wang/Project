@@ -33,8 +33,8 @@ class T_Net(nn.Module):
     def forward(self, l_ms, b_ms, h_ms, x_pan):
 
         feature = self.head(h_ms)
-        feature = self.res_block(h_ms)
-        feature = self.output_conv(h_ms)
+        feature = self.res_block(feature)
+        feature = self.output_conv(feature)
 
         R = nn.sigmoid(feature[:,:,0:self.out_channels])
         I = nn.sigmoid(feature[:,:,self.out_channels:self.out_channels+1])
@@ -61,8 +61,8 @@ class S_Net(nn.Module):
     def forward(self, l_ms, b_ms, h_ms, x_pan):
 
         feature = self.head(h_ms)
-        feature = self.res_block(h_ms)
-        feature = self.output_conv(h_ms)
+        feature = self.res_block(feature)
+        feature = self.output_conv(feature)
 
         R_1 = nn.sigmoid(feature[:,:,0:self.out_channels])
         I_1 = nn.sigmoid(feature[:,:,self.out_channels:self.out_channels+1])
