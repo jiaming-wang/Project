@@ -4,6 +4,8 @@
 |Model |Published |
 |:-----|:---------|
 |Hyperspectral and Multispectral Image Fusion via Deep Generalized Linear Mixed Model| --|
+|A Dual-Conditions Diffusion Network for Pansharpening| --|
+|Conditional Flow Matching Fusion Network| --|
 
 ## Pan-sharpening 
 |Model |Published |
