@@ -3,7 +3,7 @@
 ## HSI-MSI Fusion
 |Model |Published |
 |:-----|:---------|
-|Hyperspectral and Multispectral Image Fusion via Deep Generalized Linear Mixed Model| --|
+|Hyperspectral and Multispectral Image Fusion via Deep Generalized Linear Mixed Model| [CAAI 2026](https://github.com/jiaming-wang/Project/tree/main/HMF/DGLM)|
 |Conditional Flow Matching Fusion Network| --|
 
 ## Pan-sharpening 
